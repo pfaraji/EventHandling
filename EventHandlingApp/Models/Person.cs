@@ -11,5 +11,7 @@ namespace EventHandlingApp.Models
         public string Name { get; set; }
         public string Family { get; set; }
         public int NationalCode { get; set; }
+      
+        public ApplicationUser applicationUser { get; set; }
     }
 }
